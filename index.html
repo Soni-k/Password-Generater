@@ -4,10 +4,49 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="styal.css">
 </head>
 <body>
 	<div class="container">
-		<h1>soni aggrawal</h1>
+
+		<div class="header">
+			<h2>Password Generator</h2>
+		</div>
+
+    <div class="display">
+			<input type="text" id="pass-input"  placeholder="Password">
+			<button id="copy">Copy</button>
+		</div> 
+
+		<div class="setting">
+			<label class="length-label">Length</label>
+			<input type="number" class="length-number" value="10" min="5" max="20" step="1">
+		</div>
+		
+		<div class="setting">
+       <label for="" class="uppercase-label">Uppercase</label>
+			 <input type="checkbox" id="upercase" checked>
+		</div>
+
+		<div class="setting">
+			<label for="" class="lowercase-label">Lowercase</label>
+			<input type="checkbox" id="Lowercase" checked>
+		</div>
+
+		<div class="setting">
+			<label for="" class="numbers-label">Numbers</label>
+			<input type="checkbox" id="number" checked>
+		</div>
+
+		<div class="setting">
+			<label for="" class="symbols-label">Symbols</label>
+			<input type="checkbox" id="symbols" checked>
+		</div>
+ 
+		<div class="generate-btn">
+			<button class="generate">generate</button>
+		</div>
 	</div>
+
 </body>
 </html>
