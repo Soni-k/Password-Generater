@@ -64,12 +64,13 @@ body {
 .setting {
 	display: flex;
 	justify-content: space-between;
-	padding: 5px;
+	/* padding: 5px; */
+	padding: 0 15px 7.5px 15px;
 	font-size: large;
 	font-weight: bold;
 }
 
-.generate {
+#generate {
 	display: block;
 	width: 100%;
 	background-color: blue;
