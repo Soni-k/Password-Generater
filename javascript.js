@@ -64,5 +64,5 @@ copy.addEventListener('click', () => {
 		alert('Password Copied to Clipboard');
 		newele.remove();
 	}
-});
+})
 
